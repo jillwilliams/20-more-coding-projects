@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Quicksand";
+}
+
+.container {
+    width: 675px;
+    height: 425px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+
+.heading {
+    display: flex;
+    
+}
+
+.red-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(232,0,25);
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.yellow-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(246,153,29);
+    margin-top: 40px;
+    margin-left: -20px;
+}
+
+/* text: mastercard */
+.heading h3 {
+    font-size: 25px;
+    margin-top: 47px;
+    margin-left: 10px;
+}
+
+/* the barcode */
+.heading img {
+    width: 80px;
+    height: 60px;
+    margin-left: 280px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+/* div for text:card number and card number */
+.body {
+    margin-top: 100px;
+    margin-left: 40px;
+}
+
+/* text: card number */
+.body h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+/* the numbers */
+.body h3 {
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+
+/* bottom section, name, date */
+.bottom {
+    margin-left: 40px;
+    margin-top: 80px;
+    display: flex;
+
+}
+
+/* text: name */
+.bottom h3 {
+    font-size: 25px;
+}
+
+/* text: valid thru */
+.bottom h5 {
+    margin-left: 300px;
+    font-size: 20px;
+}
