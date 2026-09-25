@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: antiquewhite;
+    font-family: "Raleway";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 300px;
+    width: 485px;
+    border: 2px solid green;
+    background-color: lightgreen;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* text: stop watch */
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: green;
+}
+
+/* css: the time */
+#time {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: yellow;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* the buttons */
+#start, #stop, #reset {
+    padding: 10px 20px;
+    text-align: center;
+    font-family: inherit;
+    margin-left: 47px;
+    margin-top: 30px;
+    cursor: pointer;
+    background-color: green;
+    color: yellow;
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    transition: 1s;
+}
+
+#start:hover, #stop:hover, #reset:hover {
+    background-color: yellow;
+    color: green;
+    border: 2ps green solid;
+    scale: 1.1;
+    transition: 1s;
+}
+

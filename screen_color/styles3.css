@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: lightgrey;
+    font-family: "Raleway";
+}
+
+.container {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.main-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 800px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.button {
+    width: 180px;
+    height: 60px;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+    margin: 20px;
+    border-radius: 20px;
+    color: white;
+    transition: 1s;
+}
+
+#green {
+    background-color: green;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#random {
+    background-color: lightsalmon;
+}
+
+#red:hover, #green:hover, #blue:hover, #random:hover {
+    scale: 1.1;
+    transition: 1s;
+}

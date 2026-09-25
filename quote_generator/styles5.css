@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, hotpink, violet);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 500px;
+    height: 300px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+/* text: random quote.... */
+h1 {
+    font-family: "Raleway";
+    font-size: 35px;
+    text-align: center;
+    color: blue;
+    margin-top: 20px;
+}
+
+/* quote output */
+#quote {
+    font-size: 25px;
+    margin-top: 30px;
+    text-align: center;
+    color: blue;
+}
+
+/* button get quote */
+#button {
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 100px auto 20px auto;
+    width: 160px;
+    height: 50px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px blue;
+    transition: 1s;
+}
+
+#button:hover {
+    background-color: blue;
+    color: white;
+    border: 2px solid white;
+    transition: 1s;
+}

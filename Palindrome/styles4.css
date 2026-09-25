@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    width: 100%;
+    min-height: 100vh;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Raleway";
+}
+
+.container {
+    border: 2px solid blue;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+    width: 400px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+/* text: palindrome checker */
+h1 {
+    font-size: 35px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* input container */
+#input {
+    padding: 10px 20px;
+    font-family: inherit;
+    border-radius: 15px;
+}
+
+/* button */
+.check {
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+.check:hover {
+    background-color: white;
+    color: blue;
+    border: 2px blue solid;
+    transition: 1s;
+    scale: 1.1;
+}
+
+#answer {
+    font-size: 20px;
+    margin-top: 20px;
+    color: blue;
+
+}

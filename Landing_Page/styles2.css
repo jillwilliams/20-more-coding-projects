@@ -1,0 +1,220 @@
+* {
+    mask-image: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-family: "Quicksand";
+    color: white;
+}
+
+.project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 96%;
+    height: 140px;
+    border: 2px solid gold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* contains the entire heading */
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+}
+
+/* text: code geek */
+.navbar-container h4 {
+    margin-left: -15px;
+    color: gold;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* the gear image */
+.container .navbar-container img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* background-color: gold; */
+    margin: 28px;
+    color: white;
+}
+
+/* the home, latest, news, contact */
+.container .navbar-container ul {
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+    margin: 20px;
+    font-size: 15px;
+
+}
+
+/* <a> tags for all the words */
+.container .navbar-container ul a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* the magnifying glass */
+.container .navbar-container .fa-solid {
+    margin-top: 28px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* list items */
+.container .navbar-container li {
+    display: flex;
+    justify-content:space-between;
+    list-style-type: none;
+    margin: 20px;
+}
+
+.container .navbar-container li:hover {
+    color: gold;
+} 
+
+/* the search bar */
+.container .navbar-container input {
+    width: 160px;
+    height: 50px;
+    margin-right: 20px;
+    margin-top: 28px;
+    border: 1px solid black;
+}
+
+/* ------------end of navbar-------------- */
+
+body {
+    background: url("images/snow_bubble.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* <div> class */
+.body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* the hello its me down to the buttons */
+.middle-container {
+    width: 96%;
+    display: flex;
+    align-items: center;
+}
+
+/* the text hello, its me */
+.middle-container .body h4 {
+    margin-left: 100px;
+    margin-top: 160px;
+}
+
+/* text: jk williams */
+.middle-container .body h1 {
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+/* text: and im a coder */
+.middle-container .body h2 {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+
+
+/* about me button */
+.about-me {
+    width: 160px;
+    height: 50px;
+    color: black;
+    padding: 10px 20px;
+    background-color: white;
+    text-align: center;
+    font-family: inherit;
+    margin-left: 80px;
+    margin-top: 50px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, black, gold);
+    transition: 1s;
+}
+
+.about-me:hover {
+    background: grey;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+    transition: 1s;
+}
+
+/* button: follow me */
+.follow-me {
+    width: 160px;
+    height: 50px;
+    color: black;
+    padding: 10px 20px;
+    background-color: white;
+    text-align: center;
+    font-family: inherit;
+    margin-left: 30px;
+    margin-top: 50px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, black, gold);
+    transition: 1s;
+}
+
+.follow-me:hover {
+    background: grey;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+    transition: 1s;
+}
+
+/* <div for buttons */
+.buttons {
+    display: flex;
+}
+
+/*  div for img of skull */
+.photo {
+    position: relative;
+}
+
+/* img of the skull */
+.photo img {
+    width: 200px;
+    height: 220px;
+    position: absolute;
+    margin-top: -340px;
+    margin-left: 460px;
+    border-radius: 50%;
+    border: 2px solid gold;
+}
