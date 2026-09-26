@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gravitas One";
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+/* text: hallo world */
+h1 {
+    font-size: 35px;
+    color: darkgrey;
+    text-shadow: 1px 1px 1px black;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+    border: 2px darkgrey solid;
+    text-shadow: 1px 1px 1px black;
+    cursor: pointer;
+    transition: 1s;
+}
+
+button:hover {
+    transition: 1s;
+    scale: 1.1;
+    background-color: white;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+}
