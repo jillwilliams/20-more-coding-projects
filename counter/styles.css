@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 485px;
+    height: 300px;
+    border: 2px solid yellow;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 6px green;
+    background-color: black;
+}
+
+/* the text: 0 */
+#counterDisplay {
+    font-size: 100px;
+    color: yellow;
+    text-align: center;
+    text-shadow: 2px 2px 2px green;
+}
+
+/* the div for the buttons */
+#counterControls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+    gap: 15px;
+}
+
+/* the plus and minus sign */
+#counterAdd, #counterSub {
+    padding: 20px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+}
+
+#counterAdd {
+    background-color: gold;
+    border: 2px solid green;
+}
+
+#counterSub {
+    background-color: green;
+    border: 2px solid gold;
+}
+
+/* reset btn */
+#reset {
+    width: 140px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: bisque;
+    cursor: pointer;
+
+}
