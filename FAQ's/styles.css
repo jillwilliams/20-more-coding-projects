@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Iceland";
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+}
+
+/* text FAQ's */
+h1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* the answer elements */
+details {
+    cursor: pointer;
+    padding: 16px;
+    margin: 8px 0px;
+    background-color: rgba(210,25,25,0.2);
+    font-size: 20px;
+    border: 2px solid red;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* the answer paragraph */
+details p {
+    font-size: 20px;
+}
+
+/* the questions */
+summary {
+    font-weight: bold;
+}
+
+/* return container */
+#faq-container {
+    width: 640px;
+    height:50px;
+    font-size: 25px;
+} 

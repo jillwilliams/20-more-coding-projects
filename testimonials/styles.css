@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: bisque;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+    font-family: "Birthstone";
+    /* margin-top: 400px; */
+}
+
+/* <div> */
+#testimonials-container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.testimonial-card {
+    padding: 16px;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+    width: 100%;
+    border-radius: 20px;
+    line-height: 1.4;
+    background-color: white;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+/* person's photo */
+.testimonial-card img {
+    width: 260px;
+    height: 320px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+/* the person's name */
+.testimonial-card h2 {
+    text-align: center;
+}
+
+/* the lorem ipsum text */
+.testimonial-card p {
+    font-size: 25px;
+    margin: 5px 10px 10px 5px;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+/* the date */
+.testimonial-card date {
+    font-size: 25px;
+    text-align: right;
+    display: block;
+    font-style: italic;
+}   
+
+nav button {
+    cursor: pointer;
+    width: 96px;
+    background-color: skyblue;
+    color: black;
+    border: 2px black solid;
+    padding: 8px 16px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-left: 65px;
+} 
+
+nav button:hover {
+    background-color: white;
+    color: skyblue;
+    border: 2px solid skyblue;
+}
