@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: "Birthstone";
+}
+
+section#video-background {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+section#video-background video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+section#video-background .headline {
+    z-index: 2;
+    padding: 0px 32px;
+} 
+
+section#video-background .headline h1 {
+    color: white;
+    font-size: 80px;
+    margin: 16px 0px;
+}
+
+section#video-background .headline button {
+    padding: 16px;
+    color: black;
+    font-weight: 900;
+    font-size: 24px;
+    border: 0;
+    outline: 0;
+}
+
+section#info {
+    background-color: black;
+    color: white;
+    padding: 32px;
+}
+
+section#info p {
+    margin: 96px 0px;
+}
+
+@media (min-aspect-ratio: 16/9) {
+    section#video-background video {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9) {
+    section#video-background video {
+        width: auto;
+        height: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    html {
+        font-size: 70%;
+    }
+}
