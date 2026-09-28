@@ -1,0 +1,30 @@
+* {
+    width: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: "Yeseva One";
+}
+
+#race {
+    display: flex;
+    gap: 260px;
+    align-items: center;
+}
+
+#race div {
+    text-align: center;
+}
+
+#race img {
+    width: 200px;
+    display: block;
+}
