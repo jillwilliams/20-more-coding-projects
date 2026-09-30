@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial";
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+.calender {
+    width: 450px;
+    height: 480px;
+    background-color: black;
+    color: aqua;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    border-radius: 15px;
+}
+
+/* div for calender */
+.month {
+    width: 100%;
+    height: 120px;
+    background-color: aqua;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* september */
+.month h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+/* text: of day the week */
+.month p {
+    font-size: 16px;
+}
+
+/* div for weekdays */
+.weekdays {
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+/* set up the days of the week */
+.weekdays div {
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* set up the number of the day */
+.days {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;  
+}
+
+/* target the 30 divs */
+.days div {
+    font-size: 14px;
+    margin: 3px;
+    width: 57.5px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* hover over each div */
+.days div:hover:not(.empty) {
+    border: 2px solid grey;
+    cursor: pointer;
+}
+
+.today {
+    background-color: aqua;
+    color: black;
+}
