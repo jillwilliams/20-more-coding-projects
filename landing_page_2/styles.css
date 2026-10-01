@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    font-family: "Quicksand";
+    background: url("../images/snow_bubble.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container {
+    width: 96%;
+    height: 140px;
+    margin-top: 20px;
+    padding-top: 30px;
+    border: 2px solid red;
+    margin-left: 20px;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+} 
+
+/* logo image */
+.container .navbar img {
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+/* text: code geek */
+.container .navbar h1 {
+    font-size: 30px;
+    margin-left: 20px;
+    color: gold;
+    margin-top: 10px;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* div for navbar(all the text) */
+.list {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 40px;
+    top: 70px;
+    
+}
+
+/* the <ul> */
+.container .list ul {
+    display: flex;
+    justify-content: end;
+    list-style-type: none;
+    
+}
+
+/* list items: home, news,... */
+.container .list ul li {
+    margin-left: 30px;
+    
+}
+
+/* a tags */
+.container .list ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.container .list ul li a:hover {
+    color: gold;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* the magnifying glass */
+.fa-magnifying-glass {
+    color: gold;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 7px;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* the search bar */
+.search {
+    width: 130px;
+    height: 35px;
+    font-size: 20px;
+    color: black;
+    border: 1px solid gold;
+}
+
+/* hello its me section */
+.second-section {
+    margin-left: 200px;
+    margin-top: 140px;
+    border: 2px solid aqua;
+    color: white;
+
+}
+
+/* div section/skull section */
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* hello its me, and I'm a coder */
+.header h3 {
+    margin-bottom: 80px;
+
+}
+
+/* jk williams */
+.header h1 {
+    margin-bottom: 40px;
+}
+
+/* the buttons */
+.about-me, .follow-me {
+    padding: 10px 20px;
+    color: black;
+    background: linear-gradient(135deg,gold,black);
+    border-radius: 15px;
+    border: 2px solid black;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.follow-me {
+    margin-left: 40px;
+}
+
+.about-me:hover, .follow-me:hover {
+    background: black;
+    color: gold;
+    border: 2px solid gold;
+}
+
+/* the skull image */
+#skull-img {
+    width: 280px;
+    height: 360px;
+    border-radius: 50%;
+    position: absolute;
+    right: 100px;
+    margin-top: -340px;
+    border: 2px solid gold;
+}
+
+/* section after the snow bubble img*/
+/* the news section */
+.third-section {
+    background: linear-gradient(135deg, gold,black);
+    width: 100%;
+    margin-top: 500px;
+    padding: 20px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* the contact section */
+.fourth-section {
+    background: linear-gradient(135deg, white, black);
+    width: 100%;
+    text-shadow: 1px 1px 1px black;
+    padding: 20px;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        height: 100px;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    } 
+    .container .navbar img {
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+    }
+    .container .navbar h1 {
+        font-size: 20px;
+        margin-left: 10px;
+        color: gold;
+        margin-top: 2px;
+    }
+    .list {
+        right: 15px;
+        top: 58px;
+        font-size: 15px;
+    }
+    .container .list ul {
+        margin-left: 10px;
+    }
+    .container .list ul li {
+        margin-left: 10px;
+    }
+    .fa-magnifying-glass {
+        font-size: 0px;
+        width: 0px;
+        height: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .search {
+        width: 0;
+        height: 0;
+        font-size: 0;
+    }
+
+}
