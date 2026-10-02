@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-
 }
 
 body {
@@ -15,8 +13,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
-    
 }
 
 .container {
@@ -27,7 +23,6 @@ body {
     /* border: 2px solid red; */
     margin-left: 20px;
     color: white;
-    
 }
 
 .navbar {
@@ -60,7 +55,6 @@ body {
     position: absolute;
     right: 40px;
     top: 70px;
-    
 }
 
 /* the <ul> */
@@ -68,13 +62,11 @@ body {
     display: flex;
     justify-content: end;
     list-style-type: none;
-    
 }
 
 /* list items: home, news,... */
 .container .list ul li {
     margin-left: 30px;
-    
 }
 
 /* a tags */
@@ -109,14 +101,12 @@ body {
 }
 /* --------------------------------------- */
 
-
 /* hello its me section */
 .second-section {
     margin-left: 200px;
     margin-top: 140px;
     /* border: 2px solid aqua; */
     color: white;
-
 }
 
 /* div section/skull section */
@@ -131,7 +121,6 @@ body {
 /* hello its me, and I'm a coder */
 .header h3 {
     margin-bottom: 80px;
-
 }
 
 /* jk williams */
@@ -181,14 +170,12 @@ body {
     padding: 20px;
     color: white;
     text-shadow: 1px 1px 1px black;
-
 }
 
 /* current news text */
 .third-section h3 {
     text-align: center;
     margin-bottom: 50px;
-
 }
 
 /* foxnews image/link */
@@ -208,26 +195,22 @@ body {
 .third-section #glennbeck {
     width: 30%;
     height: 30%;
-    
 }
 
 /* -------------------------------------- */
 
-/* the contact section */
+/* the contact me section */
 .fourth-section {
     background: linear-gradient(135deg, white, black);
     width: 100%;
     text-shadow: 1px 1px 1px black;
     padding: 20px;
     color: white;
-    
-
 }
 
 /* the contact us text */
 .fourth-section h3 {
     text-align: center;
-
 }
 
 /* the socials link  */
@@ -235,26 +218,15 @@ body {
     font-size: 60px;
     margin: 5%;
     text-align: center;
-    
-
 }
 
+/* the contact me icons */
 .icons {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-
-
-
-
-
-
-
-
-
-
 
 @media screen and (max-width: 768px) {
     .container {

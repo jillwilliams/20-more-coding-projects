@@ -1,0 +1,134 @@
+body {
+    font-family: "Iceland";
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    line-height: 2.2;
+    font-size: 25px;
+}
+
+/* ul remove dots */
+ul {
+    list-style-type: none;
+}
+
+/* links */
+a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    display: block;
+    padding: 8px 16px;
+    transition: all 0.3s linear;
+    text-shadow: 1px 1px 1px black; 
+} 
+
+a:hover {
+    color: gold;
+    transition: 1s;
+    background: green;
+    padding-left: 24px;
+} 
+
+nav {
+    background: aqua;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+    position: relative;
+}
+
+/* the hamburger menu */
+.main .header .fa-bars {
+    font-size: 24px;
+    color: black;
+    cursor: pointer; 
+}
+
+/* the hamburger menu */
+.main .header .fa-bars:hover {
+    color: gold;
+    text-shadow: 1px 1px 1px black;
+}
+
+/* the anchor tag/links */
+.menu a {
+    color: red;
+    letter-spacing: 1px;
+    display: block;
+    padding: 8px 16px;
+    transition: all 0.3s linear;
+}
+
+.menu a:hover {
+    background: gold;
+    color: royalblue;
+    padding-left: 24px;
+}
+
+/* div */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+/* code geek icon */
+#icon {
+    width: 60px;
+    height: 60px;
+}
+
+/* the code geek text */
+h2 {
+    color: gold;
+    text-shadow: 1px 1px 1px black;
+    position: absolute;
+    left: 90px;
+    top: -6px;
+} 
+
+.menu {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s linear;
+}
+
+.show-menu {
+    height: 160px;
+}
+
+.main .menu {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 800px) {
+    .main {
+        max-width: 1170px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center; 
+        justify-content: space-between; 
+        padding: 16px;
+    }  
+    .header {
+        padding: 0;
+    }
+    .main .header .fa-bars {
+        display: none;
+    }
+    .menu {
+        height: auto;
+        display: flex;
+    }
+    .menu a {
+        padding: 0;
+        margin: 0 8px;
+    }
+    .menu a:hover {
+        padding: 0;
+        background: transparent;
+    }
+}
